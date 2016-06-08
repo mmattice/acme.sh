@@ -940,7 +940,7 @@ _initpath() {
 
 _apachePath() {
   if ! _exists apachectl ; then
-    _err "'apachecrl not found. It seems that apache is not installed, or you are not root user.'"
+    _err "'apachectl not found. It seems that apache is not installed, or you are not root user.'"
     _err "Please use webroot mode to try again."
     return 1
   fi
